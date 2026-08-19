@@ -1,6 +1,6 @@
 pipeline {
     agent any 
-    tools {maven: 'maven'}
+    tools {maven 'maven'}
     stages {
         stage('Checkout') {
             steps {
@@ -18,7 +18,7 @@ pipeline {
             }
             post {
                 always {
-                    junit 'target/test-reports/*.xml'
+                    junit 'target/surefire-reports/*.xml'
                 }
             }
         }

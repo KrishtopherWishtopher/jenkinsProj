@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.neueda.leap.GreeterTest" time="0.072" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.neueda.leap.GreeterTest" time="0.15" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-amazon-corretto.x86_64/lib"/>
-    <property name="sun.java.command" value="/home/ec2-user/sprint1/jenkinsProj/starter/target/surefire/surefirebooter-20260820173345816_3.jar /home/ec2-user/sprint1/jenkinsProj/starter/target/surefire 2026-08-20T17-33-45_252-jvmRun1 surefire-20260820173345816_1tmp surefire_0-20260820173345816_2tmp"/>
+    <property name="sun.java.command" value="/home/ec2-user/sprint1/jenkinsProj/starter/target/surefire/surefirebooter-20260820173958628_3.jar /home/ec2-user/sprint1/jenkinsProj/starter/target/surefire 2026-08-20T17-39-58_490-jvmRun1 surefire-20260820173958628_1tmp surefire_0-20260820173958628_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/ec2-user/sprint1/jenkinsProj/starter/target/test-classes:/home/ec2-user/sprint1/jenkinsProj/starter/target/classes:/home/ec2-user/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/ec2-user/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/ec2-user/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/ec2-user/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/ec2-user/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ec2-user/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/ec2-user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/ec2-user/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -24,9 +24,9 @@
     <property name="basedir" value="/home/ec2-user/sprint1/jenkinsProj/starter"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/ec2-user/sprint1/jenkinsProj/starter/target/surefire/surefirebooter-20260820173345816_3.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/ec2-user/sprint1/jenkinsProj/starter/target/surefire/surefirebooter-20260820173958628_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8-LTS"/>
     <property name="user.name" value="ec2-user"/>
@@ -52,5 +52,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="greetIncludesName" classname="com.neueda.leap.GreeterTest" time="0.032"/>
+  <testcase name="greetIncludesName" classname="com.neueda.leap.GreeterTest" time="0.05"/>
 </testsuite>
